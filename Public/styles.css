@@ -1,0 +1,334 @@
+body {
+  background-color: rgb(28, 28, 28);
+  color: white;
+  display: flex;
+  animation-name: background;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  font-family: "Arimo", sans-serif;
+}
+
+h1 {
+  font-size: 8em;
+  font-weight: bold;
+  text-align: left;
+  animation-name: landing;
+  animation-duration: 2s;
+}
+
+h2 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 3em;
+  text-align: left;
+  padding-left: 1.5%;
+}
+
+.about-me {
+  animation-name: slide-left;
+  animation-duration: 4s;
+}
+
+.skills {
+  animation-name: slide-up;
+  animation-duration: 5s;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+h4 {
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+
+h6 {
+  font-size: 0.6em;
+  margin: 10% 0;
+}
+
+p {
+  line-height: 1.15;
+}
+
+a {
+  transition: color 0.3s linear;
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  filter: grayscale(100%);
+  transition: all 0.3s linear;
+}
+
+.header {
+  text-align: left;
+}
+
+.landing {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 5%;
+}
+
+.contact-links {
+  margin-bottom: 3%;
+  width: 15vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-size: 3em;
+}
+
+.phone {
+  margin-left: 1%;
+  font-size: 1.2em;
+}
+
+.about-skills {
+  height: 100vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.about {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+.thick-underline {
+  width: 95%;
+  height: 1vh;
+  background-color: white;
+  margin: 1vh 0;
+}
+
+.skills-blocks {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: auto;
+}
+
+.block {
+  width: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+}
+
+.tech {
+  fill: white;
+}
+
+.tech-icon {
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+.black-back {
+  width: 100%;
+  height: auto;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 95vh;
+  border-left: solid;
+  border-color: white;
+  padding-left: 5%;
+  animation-name: slide-down;
+  animation-duration: 7s;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+}
+
+.second-contact {
+  font-size: 1.5em;
+  text-align: center;
+  width: 90%;
+}
+
+.second-phone {
+  text-align: center;
+  width: 90%;
+}
+
+a:hover {
+  color: rgb(51, 255, 0);
+}
+
+.tech-lift {
+  transition: all 0.3s ease-in-out;
+}
+
+.tech-lift:hover {
+  transform: scale(1.05);
+}
+
+.mobile {
+  display: none;
+}
+
+img:hover {
+  filter: none;
+}
+
+@media (max-width: 415px) {
+  body {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  img {
+    filter: saturate(100%);
+  }
+
+  .landing {
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .contact-links {
+    text-align: center;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .phone {
+    text-align: center;
+  }
+
+  .about-skills {
+    width: 100%;
+    height: auto;
+  }
+  .about {
+    width: 100%;
+    padding-left: 2%;
+    height: 75vh;
+  }
+
+  .projects {
+    margin-top: 20%;
+    height: auto;
+    padding-left: 2%;
+    border: none;
+    font-size: 1.5em;
+    margin-bottom: 10%;
+  }
+
+  .project {
+    height: auto;
+    margin: 10% 0;
+    width: 90%;
+    height: 80vh;
+    text-align: left;
+  }
+
+  .project a {
+    color: white;
+  }
+
+  .about-me {
+    font-size: 1.5em;
+  }
+
+  a {
+    color: rgb(51, 255, 0);
+  }
+
+  p {
+    width: 98%;
+  }
+  .mobile {
+    display: flex;
+    width: 95%;
+    text-align: center;
+    border-top: solid;
+  }
+}
+
+@media (min-height: 815px) {
+  .about-me p {
+    font-size: 1.6em;
+    line-height: 1.5;
+  }
+}
+
+@keyframes background {
+  0% {
+    background-color: rgb(0, 0, 0);
+  }
+  50% {
+    background-color: rgb(34, 34, 34);
+  }
+
+  100% {
+    background-color: rgb(0, 0, 0);
+  }
+}
+
+@keyframes landing {
+  0% {
+    display: none;
+    font-size: 100em;
+  }
+
+  100% {
+    font-size: 8em;
+  }
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 500%;
+  }
+
+  to {
+    margin-left: 0;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    margin-top: 500%;
+  }
+
+  to {
+    margin-top: 0;
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    margin-bottom: 800%;
+  }
+
+  to {
+    margin-bottom: 0;
+    opacity: 1;
+  }
+}
