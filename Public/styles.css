@@ -15,11 +15,6 @@ h1 {
   font-size: 8em;
   font-weight: bold;
   text-align: left;
-  animation: landing;
-  -webkit-animation: landing 2s;
-  -moz-animation: landing 2s;
-  -o-animation: landing 2s;
-  animation-duration: 2s;
 }
 
 h2 {
@@ -28,22 +23,6 @@ h2 {
   font-size: 3em;
   text-align: left;
   padding-left: 1.5%;
-}
-
-.about-me {
-  animation: slide-left;
-  -webkit-animation: slide-left 4s;
-  -moz-animation: slide-left 4s;
-  -o-animation: slide-left 4s;
-  animation-duration: 4s;
-}
-
-.skills {
-  animation: slide-up;
-  -webkit-animation: slide-up 5s;
-  -moz-animation: slide-up 5s;
-  -o-animation: slide-up 5s;
-  animation-duration: 5s;
 }
 
 h3 {
@@ -172,11 +151,6 @@ i:hover {
   border-left: solid;
   border-color: white;
   padding-left: 5%;
-  animation: slide-down;
-  -webkit-animation: slide-down 7s;
-  -moz-animation: slide-down 7s;
-  -o-animation: slide-down 7s;
-  animation-duration: 7s;
 }
 
 .project {
@@ -348,168 +322,5 @@ img:hover {
 
   100% {
     background-color: rgb(0, 0, 0);
-  }
-}
-
-@-webkit-keyframes landing {
-  0% {
-    display: none;
-    font-size: 100em;
-  }
-
-  100% {
-    font-size: 8em;
-  }
-}
-@-moz-keyframes landing {
-  0% {
-    display: none;
-    font-size: 100em;
-  }
-
-  100% {
-    font-size: 8em;
-  }
-}
-@-o-keyframes landing {
-  0% {
-    display: none;
-    font-size: 100em;
-  }
-
-  100% {
-    font-size: 8em;
-  }
-}
-
-@keyframes landing {
-  0% {
-    display: none;
-    font-size: 100em;
-  }
-
-  100% {
-    font-size: 8em;
-  }
-}
-
-@-webkit-keyframes slide-left {
-  from {
-    margin-left: 500%;
-  }
-
-  to {
-    margin-left: 0;
-  }
-}
-@-moz-keyframes slide-left {
-  from {
-    margin-left: 500%;
-  }
-
-  to {
-    margin-left: 0;
-  }
-}
-@-o-keyframes slide-left {
-  from {
-    margin-left: 500%;
-  }
-
-  to {
-    margin-left: 0;
-  }
-}
-
-@keyframes slide-left {
-  from {
-    margin-left: 500%;
-  }
-
-  to {
-    margin-left: 0;
-  }
-}
-@-webkit-keyframes slide-up {
-  from {
-    margin-top: 500%;
-  }
-
-  to {
-    margin-top: 0;
-  }
-}
-@-moz-keyframes slide-up {
-  from {
-    margin-top: 500%;
-  }
-
-  to {
-    margin-top: 0;
-  }
-}
-@-o-keyframes slide-up {
-  from {
-    margin-top: 500%;
-  }
-
-  to {
-    margin-top: 0;
-  }
-}
-
-@keyframes slide-up {
-  from {
-    margin-top: 500%;
-  }
-
-  to {
-    margin-top: 0;
-  }
-}
-
-@-webkit-keyframes slide-down {
-  from {
-    opacity: 0;
-    margin-bottom: 800%;
-  }
-
-  to {
-    margin-bottom: 0;
-    opacity: 1;
-  }
-}
-@-moz-keyframes slide-down {
-  from {
-    opacity: 0;
-    margin-bottom: 800%;
-  }
-
-  to {
-    margin-bottom: 0;
-    opacity: 1;
-  }
-}
-@-o-keyframes slide-down {
-  from {
-    opacity: 0;
-    margin-bottom: 800%;
-  }
-
-  to {
-    margin-bottom: 0;
-    opacity: 1;
-  }
-}
-
-@keyframes slide-down {
-  from {
-    opacity: 0;
-    margin-bottom: 800%;
-  }
-
-  to {
-    margin-bottom: 0;
-    opacity: 1;
   }
 }
