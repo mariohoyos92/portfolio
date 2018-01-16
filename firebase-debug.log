@@ -1,0 +1,32 @@
+[debug] [2018-01-16T21:12:07.367Z] ----------------------------------------------------------------------
+[debug] [2018-01-16T21:12:07.369Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-01-16T21:12:07.369Z] CLI Version:   3.16.0
+[debug] [2018-01-16T21:12:07.369Z] Platform:      darwin
+[debug] [2018-01-16T21:12:07.370Z] Node Version:  v8.9.1
+[debug] [2018-01-16T21:12:07.370Z] Time:          Tue Jan 16 2018 15:12:07 GMT-0600 (CST)
+[debug] [2018-01-16T21:12:07.370Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-16T21:12:07.380Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-16T21:12:07.381Z] > authorizing via signed-in user
+[debug] [2018-01-16T21:12:07.382Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/portfolio-73792  
+  
+ Tue Jan 16 2018 15:12:07 GMT-0600 (CST)
+[debug] [2018-01-16T21:12:07.842Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-16T21:12:07.843Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/portfolio-73792/tokens  
+  
+ Tue Jan 16 2018 15:12:07 GMT-0600 (CST)
+[debug] [2018-01-16T21:12:08.478Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/marioanorganism/Documents/Hacking/Portfolio'...
+[info] 
+[debug] [2018-01-16T21:12:08.481Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-73792  
+  
+ Tue Jan 16 2018 15:12:08 GMT-0600 (CST)
+[debug] [2018-01-16T21:12:08.834Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-16T21:12:08.836Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/658360696339/clients/_:getWebAppConfig  
+  
+ Tue Jan 16 2018 15:12:08 GMT-0600 (CST)
+[debug] [2018-01-16T21:12:09.264Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: Public
+[info] ✔  hosting: Local server: http://localhost:5000
+

@@ -2,7 +2,10 @@ body {
   background-color: rgb(28, 28, 28);
   color: white;
   display: flex;
-  animation-name: background;
+  animation: background;
+  -webkit-animation: background 7s infinite;
+  -moz-animation: background 7s infinite;
+  -o-animation: background 7s infinite;
   animation-duration: 7s;
   animation-iteration-count: infinite;
   font-family: "Arimo", sans-serif;
@@ -12,7 +15,10 @@ h1 {
   font-size: 8em;
   font-weight: bold;
   text-align: left;
-  animation-name: landing;
+  animation: landing;
+  -webkit-animation: landing 2s;
+  -moz-animation: landing 2s;
+  -o-animation: landing 2s;
   animation-duration: 2s;
 }
 
@@ -25,12 +31,18 @@ h2 {
 }
 
 .about-me {
-  animation-name: slide-left;
+  animation: slide-left;
+  -webkit-animation: slide-left 4s;
+  -moz-animation: slide-left 4s;
+  -o-animation: slide-left 4s;
   animation-duration: 4s;
 }
 
 .skills {
-  animation-name: slide-up;
+  animation: slide-up;
+  -webkit-animation: slide-up 5s;
+  -moz-animation: slide-up 5s;
+  -o-animation: slide-up 5s;
   animation-duration: 5s;
 }
 
@@ -160,7 +172,10 @@ i:hover {
   border-left: solid;
   border-color: white;
   padding-left: 5%;
-  animation-name: slide-down;
+  animation: slide-down;
+  -webkit-animation: slide-down 7s;
+  -moz-animation: slide-down 7s;
+  -o-animation: slide-down 7s;
   animation-duration: 7s;
 }
 
@@ -207,6 +222,7 @@ img:hover {
   body {
     flex-direction: column;
     justify-content: space-between;
+    animation: none;
   }
 
   img {
@@ -285,6 +301,43 @@ img:hover {
   }
 }
 
+@-webkit-keyframes background {
+  0% {
+    background-color: rgb(0, 0, 0);
+  }
+  50% {
+    background-color: rgb(34, 34, 34);
+  }
+
+  100% {
+    background-color: rgb(0, 0, 0);
+  }
+}
+@-moz-keyframes background {
+  0% {
+    background-color: rgb(0, 0, 0);
+  }
+  50% {
+    background-color: rgb(34, 34, 34);
+  }
+
+  100% {
+    background-color: rgb(0, 0, 0);
+  }
+}
+@-o-keyframes background {
+  0% {
+    background-color: rgb(0, 0, 0);
+  }
+  50% {
+    background-color: rgb(34, 34, 34);
+  }
+
+  100% {
+    background-color: rgb(0, 0, 0);
+  }
+}
+
 @keyframes background {
   0% {
     background-color: rgb(0, 0, 0);
@@ -295,6 +348,37 @@ img:hover {
 
   100% {
     background-color: rgb(0, 0, 0);
+  }
+}
+
+@-webkit-keyframes landing {
+  0% {
+    display: none;
+    font-size: 100em;
+  }
+
+  100% {
+    font-size: 8em;
+  }
+}
+@-moz-keyframes landing {
+  0% {
+    display: none;
+    font-size: 100em;
+  }
+
+  100% {
+    font-size: 8em;
+  }
+}
+@-o-keyframes landing {
+  0% {
+    display: none;
+    font-size: 100em;
+  }
+
+  100% {
+    font-size: 8em;
   }
 }
 
@@ -309,6 +393,34 @@ img:hover {
   }
 }
 
+@-webkit-keyframes slide-left {
+  from {
+    margin-left: 500%;
+  }
+
+  to {
+    margin-left: 0;
+  }
+}
+@-moz-keyframes slide-left {
+  from {
+    margin-left: 500%;
+  }
+
+  to {
+    margin-left: 0;
+  }
+}
+@-o-keyframes slide-left {
+  from {
+    margin-left: 500%;
+  }
+
+  to {
+    margin-left: 0;
+  }
+}
+
 @keyframes slide-left {
   from {
     margin-left: 500%;
@@ -316,6 +428,33 @@ img:hover {
 
   to {
     margin-left: 0;
+  }
+}
+@-webkit-keyframes slide-up {
+  from {
+    margin-top: 500%;
+  }
+
+  to {
+    margin-top: 0;
+  }
+}
+@-moz-keyframes slide-up {
+  from {
+    margin-top: 500%;
+  }
+
+  to {
+    margin-top: 0;
+  }
+}
+@-o-keyframes slide-up {
+  from {
+    margin-top: 500%;
+  }
+
+  to {
+    margin-top: 0;
   }
 }
 
@@ -326,6 +465,40 @@ img:hover {
 
   to {
     margin-top: 0;
+  }
+}
+
+@-webkit-keyframes slide-down {
+  from {
+    opacity: 0;
+    margin-bottom: 800%;
+  }
+
+  to {
+    margin-bottom: 0;
+    opacity: 1;
+  }
+}
+@-moz-keyframes slide-down {
+  from {
+    opacity: 0;
+    margin-bottom: 800%;
+  }
+
+  to {
+    margin-bottom: 0;
+    opacity: 1;
+  }
+}
+@-o-keyframes slide-down {
+  from {
+    opacity: 0;
+    margin-bottom: 800%;
+  }
+
+  to {
+    margin-bottom: 0;
+    opacity: 1;
   }
 }
 
