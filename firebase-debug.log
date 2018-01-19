@@ -1,0 +1,41 @@
+[debug] [2018-01-19T21:00:11.106Z] ----------------------------------------------------------------------
+[debug] [2018-01-19T21:00:11.108Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-01-19T21:00:11.108Z] CLI Version:   3.16.0
+[debug] [2018-01-19T21:00:11.108Z] Platform:      darwin
+[debug] [2018-01-19T21:00:11.108Z] Node Version:  v8.9.1
+[debug] [2018-01-19T21:00:11.109Z] Time:          Fri Jan 19 2018 15:00:11 GMT-0600 (CST)
+[debug] [2018-01-19T21:00:11.109Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-19T21:00:11.121Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-19T21:00:11.122Z] > authorizing via signed-in user
+[debug] [2018-01-19T21:00:11.123Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-19T21:00:11.123Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/hGVFqOKcQs-RylCfwFd_AXz_vtt72Q-F2Bi9--n2Ejg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Jan 19 2018 15:00:11 GMT-0600 (CST)
+[debug] [2018-01-19T21:00:11.372Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-19T21:00:11.389Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/portfolio-73792  
+  
+ Fri Jan 19 2018 15:00:11 GMT-0600 (CST)
+[debug] [2018-01-19T21:00:11.817Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-19T21:00:11.819Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/portfolio-73792/tokens  
+  
+ Fri Jan 19 2018 15:00:11 GMT-0600 (CST)
+[debug] [2018-01-19T21:00:12.136Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/marioanorganism/Documents/Hacking/Portfolio'...
+[info] 
+[debug] [2018-01-19T21:00:12.139Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-73792  
+  
+ Fri Jan 19 2018 15:00:12 GMT-0600 (CST)
+[debug] [2018-01-19T21:00:12.458Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-19T21:00:12.460Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/658360696339/clients/_:getWebAppConfig  
+  
+ Fri Jan 19 2018 15:00:12 GMT-0600 (CST)
+[debug] [2018-01-19T21:00:12.807Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: Public
+[info] ✔  hosting: Local server: http://localhost:5000
+

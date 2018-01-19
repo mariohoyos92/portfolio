@@ -1,22 +1,22 @@
 # MarioHoyosDev.com
 
-[MarioHoyosDev.com](https://www.mariohoyosdev.com) is my web development portfolio site. A summary of the content is found below.
+[MarioHoyosDev.com](https://www.mariohoyosdev.com) is my web development portfolio site, build in plain html/css/js and hosted on Firebase. A summary of the content is found below.
 
 ### About
 
-* - Professional Learner
-* - Full-Stack Developer
-* - LOVE ReactJs
-* - Music producer
-* - Book Reader
-* - Travel Enthusiast
+* * Professional Learner
+* * Full-Stack Developer
+* * LOVE ReactJs
+* * Music producer
+* * Book Reader
+* * Travel Enthusiast
 
 ### Skills
 
 * ReactJs
 * NodeJs
 * Javascript
-* Git 
+* Git
 * ExpressJs
 * PostgreSQL
 * Sass
@@ -30,7 +30,6 @@
 
 * [HassleFreeBeats.com](https://www.hasslefreebeats.com)
 * [Fittr.us](https://www.fittr.us)
-
 
 # Sending Feedback
 
