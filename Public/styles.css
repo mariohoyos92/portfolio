@@ -187,6 +187,11 @@ img:hover {
 }
 
 @media (max-width: 415px) {
+  h1 {
+    font-size: 7em;
+    padding-left: 0;
+    margin-left: -2%;
+  }
   body {
     flex-direction: column;
     justify-content: space-between;
@@ -199,17 +204,20 @@ img:hover {
 
   .landing {
     justify-content: center;
-    width: 100%;
+    width: 95%;
     height: 100vh;
   }
   .contact-links {
     text-align: center;
     justify-content: space-between;
-    width: 90%;
+    width: 60%;
+    margin-bottom: 0;
   }
 
   .phone {
-    text-align: center;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 0;
   }
 
   .about-skills {
@@ -217,9 +225,13 @@ img:hover {
     height: auto;
   }
   .about {
-    width: 100%;
+    width: 95%;
     padding-left: 2%;
     height: 75vh;
+  }
+
+  .skills-blocks {
+    margin-left: 4%;
   }
 
   .projects {
@@ -237,6 +249,7 @@ img:hover {
     width: 90%;
     height: 80vh;
     text-align: left;
+    margin-left: 0%;
   }
 
   .project a {
@@ -259,6 +272,16 @@ img:hover {
     width: 95%;
     text-align: center;
     border-top: solid;
+  }
+
+  h3 {
+    width: 95%;
+  }
+
+  h2 {
+    font-size: 2.5em;
+    text-align: left;
+    padding-left: 0;
   }
 }
 
