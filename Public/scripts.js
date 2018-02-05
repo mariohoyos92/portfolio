@@ -1,3 +1,4 @@
+//----------------------- text shadow animation --------------------
 const hero = document.querySelector(".landing");
 const text = hero.querySelectorAll("h1");
 const walk = 25;
@@ -20,3 +21,20 @@ function shadow(e) {
 }
 
 hero.addEventListener("mousemove", shadow);
+
+//------------------------ expand about me---------------------
+const about = document.querySelector(".about-me");
+const headers = about.querySelectorAll("p");
+
+const showInfo = paragraph => {
+  let span = paragraph.querySelector("span");
+  span.classList.remove("description");
+};
+
+const hideInfo = paragraph => {
+  let span = paragraph.querySelector("span");
+  span.classList.add("description");
+};
+
+headers.forEach(p => p.addEventListener("mouseenter", () => showInfo(p)));
+headers.forEach(p => p.addEventListener("mouseleave", () => hideInfo(p)));

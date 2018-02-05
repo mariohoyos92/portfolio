@@ -106,6 +106,15 @@ i:hover {
   margin: 1vh 0;
 }
 
+.description {
+  display: none;
+}
+.expanded {
+  color: rgb(0, 234, 255);
+  transition: all 0.3s ease-in;
+  margin: 10% 0;
+}
+
 .skills-blocks {
   width: 90%;
   display: flex;
