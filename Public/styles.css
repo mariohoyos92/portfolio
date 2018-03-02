@@ -185,6 +185,7 @@ a:hover {
 
 .tech-lift:hover {
   transform: scale(1.05);
+  color: rgb(0, 234, 255);
 }
 
 .mobile {
